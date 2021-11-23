@@ -1058,7 +1058,7 @@ var FooterComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "/* body{color: black;}\r\na{text-decoration: none!important;color: black;}\r\na :hover{color: #a0a0a0;transition: color .3s;} */"
 
 /***/ }),
 
