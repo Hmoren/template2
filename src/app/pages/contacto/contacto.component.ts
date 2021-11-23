@@ -11,7 +11,6 @@ export class ContactoComponent implements OnInit {
 
   public form = new FormGroup({});
 
-
   constructor(
     private fb: FormBuilder,
     private http: HttpClient
@@ -25,23 +24,15 @@ export class ContactoComponent implements OnInit {
     });
   }
 
-  enviar()
-  {
+  enviar() {
     const body1 = new HttpParams()
-    .set('name', this.form.get('nombre').value)
-    .set('email', this.form.get('email').value)
-    .set('message', this.form.get('mensaje').value);
-
-    console.log(body1);
-    
-   
+      .set('name', this.form.get('nombre').value)
+      .set('email', this.form.get('email').value)
+      .set('message', this.form.get('mensaje').value);
     const headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
-    this.http.post("http://ivensmedlab.cl/old/assets/contact.php",body1,{ headers }).subscribe((resultado: any) => {
+    this.http.post("http://ivensmedlab.cl/old/assets/contact.php", body1, { headers }).subscribe((resultado: any) => {
       const returnjson: any[] = Array.of(resultado);
-      console.log(resultado);        
-      
-      })   
-    
+    });
   }
 
 }

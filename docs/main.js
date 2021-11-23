@@ -433,11 +433,9 @@ var ContactoComponent = /** @class */ (function () {
             .set('name', this.form.get('nombre').value)
             .set('email', this.form.get('email').value)
             .set('message', this.form.get('mensaje').value);
-        console.log(body1);
         var headers = { 'Content-Type': 'application/x-www-form-urlencoded' };
         this.http.post("http://ivensmedlab.cl/old/assets/contact.php", body1, { headers: headers }).subscribe(function (resultado) {
             var returnjson = Array.of(resultado);
-            console.log(resultado);
         });
     };
     ContactoComponent = __decorate([
@@ -515,7 +513,6 @@ var ItemComponent = /** @class */ (function () {
             console.log(parametros);
             _this.id = parametros['id'];
             _this.productoService.getProducto(parametros['id']);
-            console.log(_this.productoService);
         });
     };
     ItemComponent = __decorate([
@@ -848,14 +845,11 @@ var InfoPaginaService = /** @class */ (function () {
     };
     InfoPaginaService.prototype.cargarEquipo = function () {
         var _this = this;
-        // Leer el archivo JSON
-        //this.http.get('https://angular-html-25cf9.firebaseio.com/equipo.json')
+        // Leer el archivo JSON    
         this.http.get('assets/data/equipo.json')
             .subscribe(function (resp) {
             _this.equipo = resp;
-            // console.log(resp);
         });
-        // this.equipo = resp
     };
     InfoPaginaService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
@@ -906,7 +900,6 @@ var ProductosService = /** @class */ (function () {
     ProductosService.prototype.cargarProductos = function () {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            //this.http.get('https://angular-html-25cf9.firebaseio.com/productos_idx.json')
             _this.http.get('assets/data/productos_idx.json')
                 .subscribe(function (resp) {
                 _this.productos = resp;
@@ -918,7 +911,6 @@ var ProductosService = /** @class */ (function () {
     ProductosService.prototype.cargarProductoDetalle = function () {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            //this.http.get('https://angular-html-25cf9.firebaseio.com/productos_idx.json')
             _this.http.get('assets/data/productos-detalle.json')
                 .subscribe(function (resp) {
                 _this.productoDetalle = resp;

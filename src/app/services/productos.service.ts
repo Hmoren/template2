@@ -18,63 +18,49 @@ export class ProductosService {
 
 
   constructor(private http: HttpClient) {
-
     this.cargarProductos();
-
   }
 
 
   private cargarProductos() {
-
-    return new Promise((resolve, reject) => {
-
-      //this.http.get('https://angular-html-25cf9.firebaseio.com/productos_idx.json')
+    return new Promise<void>((resolve, reject) => {
       this.http.get('assets/data/productos_idx.json')
         .subscribe((resp: Producto[]) => {
           this.productos = resp;
           this.cargando = false;
           resolve();
         });
-
     });
-
   }
 
-
   private cargarProductoDetalle() {
-    
-    return new Promise((resolve, reject) => {
-      //this.http.get('https://angular-html-25cf9.firebaseio.com/productos_idx.json')
+    return new Promise<void>((resolve, reject) => {
       this.http.get('assets/data/productos-detalle.json')
         .subscribe((resp: ProductoDescripcion[]) => {
-          this.productoDetalle = resp;          
+          this.productoDetalle = resp;
           this.cargando = false;
           resolve();
         });
-
     });
-
   }
 
-  getProducto(id: string) {   
-    if (this.productoDetalle.length === 0) {     
+  getProducto(id: string) {
+    if (this.productoDetalle.length === 0) {
       // cargar productos
       this.cargarProductoDetalle().then(() => {
         // ejecutar después de tener los productos
         // Aplicar filtro
         this.filtrarProductoDetalle(id);
-        return this.productoDetalleFiltrado
+        return this.productoDetalleFiltrado;
       });
     } else {
       // aplicar el filtro
       this.filtrarProductoDetalle(id);
-      return this.productoDetalleFiltrado
+      return this.productoDetalleFiltrado;
     }
   }
 
   buscarProducto(termino: string) {
-
-
     if (this.productos.length === 0) {
       // cargar productos
       this.cargarProductos().then(() => {
@@ -87,8 +73,6 @@ export class ProductosService {
       // aplicar el filtro
       this.filtrarProductos(termino);
     }
-
-
   }
 
   private filtrarProductos(termino: string) {
@@ -101,9 +85,6 @@ export class ProductosService {
       }
     });
   }
-
-
-
 
   private filtrarProductoDetalle(id: string) {
     this.productoDetalleFiltrado = [];

@@ -13,18 +13,16 @@ export class ItemComponent implements OnInit {
   producto: ProductoDescripcion;
   id: string;
 
-
-  constructor( private route: ActivatedRoute,
-               public productoService: ProductosService ) { }
+  constructor(private route: ActivatedRoute,
+    public productoService: ProductosService) { }
 
   ngOnInit() {
 
     this.route.params
-        .subscribe( parametros => {
-           console.log(parametros);
-           this.id =parametros['id'];
-           this.productoService.getProducto(parametros['id'])
-          console.log(this.productoService)
-        });      
+      .subscribe(parametros => {
+        console.log(parametros);
+        this.id = parametros['id'];
+        this.productoService.getProducto(parametros['id']);        
+      });
   }
 }
