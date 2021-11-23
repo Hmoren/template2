@@ -1,0 +1,16 @@
+[
+    {
+        "frase": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+        "nombre": "Veronica Villegas",
+        "subtitulo": "Area de Respiracion ",
+        "twitter": "vvillegas@ivensmedlab.cl",
+        "url": "../assets/img/team-vvillegas.jpg"
+    },
+    {
+        "frase": "Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.",
+        "nombre": "Maria Isabel Rupallan ",
+        "subtitulo": "Asistente de Ventas",
+        "twitter": "mrupallan@ivensoftalmo.cl",
+        "url": "../assets/img/team-mrupallan.jpg"
+    }    
+]
