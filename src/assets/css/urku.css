@@ -502,6 +502,35 @@ body {
   background-color: #000;
   background-blend-mode: luminosity;
 }
+
+
+.rk-marca--flex {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  border-color: white;
+  border-width: 4px;
+  border-style: solid;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+.rk-marca--flex:after {
+  display: none;
+}
+.rk-marca--flex:before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
+.rk-marca--flex:hover {
+  background-color: #000;
+  background-blend-mode: luminosity;
+}
+
 @media (min-width: 40em) {
   .rk-item {
     border-width: 4px;
@@ -1178,6 +1207,14 @@ body {
   background-image: url("../img/project-2.jpg");
 }
 
+.marca-1 {
+  background-image: url("../img/marca-1.jpg");
+}
+
+.marca-2 {
+  background-image: url("../img/marca-2.jpg");
+}
+
 .item-3 {
   background-image: url("../img/project-3.jpg");
 }
@@ -1351,13 +1388,13 @@ body {
 
 .item-inside-1 {
   /* background-image: url("../img/project-1.jpg"); */
-  background-position: 50% 100%;
+  background-position: 50% 50%;
   background-size: 350%;
 }
 
 @media (min-width: 40em) {
   .item-inside-1 {
-    background-size: 150%;
+    background-size: 100%;
   }
 }
 
@@ -1978,7 +2015,7 @@ body {
   padding-bottom: 4.2rem;
 }
 .rk-menu__sub {
-  background-color: white;
+  background-color: rgb(231, 232, 236);
   left: 0;
   list-style: none;
   margin: 0;

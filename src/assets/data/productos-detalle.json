@@ -1,0 +1,116 @@
+[
+    {   "id":"prod-1",
+        "categoria": "Collar",
+        "desc1": "Collar cervical rígido Mini Perfit Ace, de una sola pieza, ajustable en 12 graduaciones o posiciones precisas. 2 Modelos (Neonatal/Pediátrico, niño) (y mayor o adultos muy pequeños). Desechable.",
+        "desc2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "producto": "Collar Cervical",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Collar Cervical",
+        "subtitulo2": "Material: Polietileno. Color: Amarillo/Gris claro."
+    },
+    {
+        "id":"prod-2",
+        "categoria": "Manique",
+        "desc1": "Ambu Baby  para  RCP  simulador bebé, tamaño real de un niño de 1 año de edad. Práctica de técnica de BLS (Apoyo vital básico) este maniquí entrega verificación de correcta simulación en RCP. Ambu patentó sistema de protección, higiénico, con  su  sistema  de piezas faciales de bebé, intercambiables. ",
+        "desc2": "Puede  verificarse  en  forma  visual,  audible y palpable la ventilación y natural exalación. El  instructor  puede simular obstrucción en la vía aérea. Simulación real de pulso braquial, prevee correcto entrenamiento.",
+        "producto": "Manique Ambu BABY",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Manique Ambu BABY",
+        "subtitulo2": " Peso : 2,5Kgs. con caja. Largo : 40 cms."
+    },
+    {
+        "id":"prod-3",
+        "categoria": "Manique",
+        "desc1": "Maniquí Ambu MAN tiene un diseño de torso cerrado para formación académica,  proporciona una percepción muy real de la ventilación. El indicador de compresión confirma la profundidad correcta de la compresión.",
+        "desc2": "Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar.",
+        "producto": "Manique Ambu MAN BASICO",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Manique Ambu MAN BASICO",
+        "subtitulo2": "Medidas:70 x 33 x 20 cm. Peso: 2 Kgs."
+    }
+    ,
+    {
+        "id":"prod-4",
+        "categoria": "reanimador",
+        "desc1": "Ambu original, lider mundial en resucitadores. Contamos con dos modelos Adulto y Pediatrico. los resucitadores Ambu Mark IV Adulto  y Mark IV Baby ( Pediatrico y Neonatal)",
+        "desc2": "fáciles de sostener gracias al Asa de sujecion incorporada y bolsa doble, completamente autoclavables para su reutilización.",
+        "producto": "Reanimador Mark IV Adulto y Baby",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Reanimador Mark IV Adulto y Baby",
+        "subtitulo2": ""
+    }
+    ,
+    {
+        "id":"prod-5",
+        "categoria": "Mascarilla",
+        "desc1": "Mascarilla tamaño transparente de silicona azul, con borde blando, autoclavable para Resucitador manual modelo Mark IV adulto y Baby Mark IV.",
+        "desc2": "Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar.",
+        "producto": "Mascarillas Transparente con borde azul inflable",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Mascarillas Transparente con borde azul inflable",
+        "subtitulo2": "6 tamaños"
+    },
+    {
+        "id":"prod-6",
+        "categoria": "Resucitador",
+        "desc1": "Ambu original, lider mundial en resucitadores. Resucitador Silicona Oval se ha diseñado para la ventilación manual desde pacientes neonatos hasta adultos.",
+        "desc2": " Es un resucitador de silicona reutilizable.",
+        "producto": "Resucitador Silicona Oval",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Resucitador Silicona Oval",
+        "subtitulo2": ""
+    },
+    {
+        "id":"prod-7",
+        "categoria": "Resucitador",
+        "desc1": "Ambu SPUR II desechable ofrece a los usuarios una excepcional sensación táctil y visual durante la reanimación. La bolsa es muy sensible y muestra una resistencia mecánica mínima. Su diseño  proporciona un volumen de expulsión óptimo con un retroceso perfecto.",
+        "desc2": "Disponible para pacientes neonatos, pediatricos y adulto.",
+        "producto": "Resucitador SPUR II",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Resucitador SPUR II",
+        "subtitulo2": ""
+    }
+    ,
+    {
+        "id":"prod-8",
+        "categoria": "válvulas",
+        "desc1": "Las válvulas PEEP Ambu han sido diseñadas para utilizarse con resucitadores manuales, ventiladores, máquinas de anestesia (donde indica el fabricante) y sistemas CPAP.",
+        "desc2": "Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar.",
+        "producto": "Válvula PEEP Reutilizable",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Válvula PEEP Reutilizable",
+        "subtitulo2": ""
+    },
+    {
+        "id":"prod-9",
+        "categoria": "Manique",
+        "desc1": "Maniquí Ambu MAN tiene un diseño de torso cerrado para formación académica,  proporciona una percepción muy real de la ventilación. El indicador de compresión confirma la profundidad correcta de la compresión.",
+        "desc2": "Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar.",
+        "producto": "Manique Ambu MAN BASICO",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Manique Ambu MAN BASICO",
+        "subtitulo2": "Medidas:70 x 33 x 20 cm. Peso: 2 Kgs."
+    },
+    {
+        "id":"prod-10",
+        "categoria": "Manique",
+        "desc1": "Maniquí Ambu MAN tiene un diseño de torso cerrado para formación académica,  proporciona una percepción muy real de la ventilación. El indicador de compresión confirma la profundidad correcta de la compresión.",
+        "desc2": "Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar.",
+        "producto": "Manique Ambu MAN BASICO",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Manique Ambu MAN BASICO",
+        "subtitulo2": "Medidas:70 x 33 x 20 cm. Peso: 2 Kgs."
+    },
+    {
+        "id":"prod-11",
+        "categoria": "Manique",
+        "desc1": "Maniquí Ambu MAN tiene un diseño de torso cerrado para formación académica,  proporciona una percepción muy real de la ventilación. El indicador de compresión confirma la profundidad correcta de la compresión.",
+        "desc2": "Incorpora un sistema higiénico exclusivo y patentado con una pieza facial y 25 bolsas para la cabeza. La forma detallada del torso, con sus referencias anatómicas, permite a los estudiantes aprender el algoritmo completo de la reanimación cardiopulmonar básica. Ambu SAM es un muñeco ligero,  compacto y fácil de transportar.",
+        "producto": "Manique Ambu MAN BASICO",
+        "resumen": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "subtitulo1": "Manique Ambu MAN BASICO",
+        "subtitulo2": "Medidas:70 x 33 x 20 cm. Peso: 2 Kgs."
+    }
+
+    
+]

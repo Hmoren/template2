@@ -341,6 +341,7 @@ html {
   padding-right: .25rem;
   position: relative;
   max-width: 100%;
+  display: block;
 }
 
 .item-xs--auto {

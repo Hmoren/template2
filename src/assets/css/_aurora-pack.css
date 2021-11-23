@@ -103,6 +103,7 @@ html {
   padding-left: .25rem;
   padding-right: .25rem;
   position: relative;
+  display: block;
 }
 
 .item-xs--auto {

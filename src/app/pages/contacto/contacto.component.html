@@ -1,0 +1,82 @@
+
+
+
+
+
+<div class="ae-container-fluid ae-container-fluid--inner rk-main">
+  <div class="ae-grid">
+    <div class="ae-grid__item item-lg-6 ">
+      <h4 class="ae-u-bolder au-mb-3 conatct__title">Contáctanos</h4>
+      <p class="au-mb-4 contact__desc">¡Saluda usando el formulario de contacto a continuación!
+        Estamos listos para ayudar.</p>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle text-center" src="assets/img/team/team-vvillegas.jpg"
+                    alt="..." />
+                <h4>Veronica Villegas</h4>
+                <p class="text-muted ">Área de respiración </p>
+                <div class="icono">
+                    <i class="bi-phone fs-3 mb-3 text-muted"></i> +569 67525347
+                </div>
+                <div class="icono">
+                    <i class="bi bi-envelope fs-3 mb-3 text-muted"></i> vvillegas@ivensmedlab.cl
+                </div>                   
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="team-member">
+                <img class="mx-auto rounded-circle text-center" src="assets/img/team/team-mrupallan.jpg"
+                    alt="..." />
+                <h4>Maria Isabel Rupallan</h4>
+                <p class="text-muted ">Asistente de Ventas </p>
+                <div class="icono">
+                    <i class="bi-phone fs-3 mb-3 text-muted"></i> +569 94621671
+                </div>
+                <div class="icono">
+                    <i class="bi bi-envelope fs-3 mb-3 text-muted"></i> mrupallan@ivensmedlab.cl
+                </div>                   
+            </div>
+        </div>
+
+
+        </div>
+       
+
+
+    </div>
+    <div class="ae-grid__item item-lg-6 ">
+      <form [formGroup]="form" class="ae-form--full" errorTailor>
+        
+        <div class="row">
+          <label for="nombre" >Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Nombre " formControlName="nombre" />
+
+         
+        </div>
+       
+        <div class="row">
+          <label for="email" >Email
+          </label>
+          <input type="text" class="form-control" id="email"
+            placeholder="Email " formControlName="email" />
+        </div>
+        <div class="row">
+          <label for="mensaje" >Mensaje
+          </label>
+          <textarea type="text" rows="2" class="form-control" id="mensaje"
+        placeholder="Mensaje"
+        formControlName="mensaje"></textarea>
+        </div>
+        <div class="col-auto">
+        
+          <button type="button" class="btn btn-primary btn-outline-primary" (click)="enviar()">Enviar</button>
+        </div>
+      </form>
+      
+    </div>
+  </div>
+ 
+</div>
